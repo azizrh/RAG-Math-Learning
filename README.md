@@ -1,7 +1,7 @@
 # RAG Chat Assistant with Gemini Pro
 
 A simple implementation of Retrieval-Augmented Generation (RAG) that lets you chat with your PDF documents using Google's Gemini Pro API.
-
+![alt text](rag-streamlit.png "Chat Assistant")
 ## Quick Start
 
 1. Install dependencies
