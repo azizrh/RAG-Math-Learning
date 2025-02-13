@@ -1,0 +1,9 @@
+pypdf
+langchain
+langchain-community
+chromadb
+pytest
+# google-generativeai
+google-genai
+numpy
+streamlit
