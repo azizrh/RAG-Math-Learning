@@ -2,7 +2,7 @@
 
 - `pip install -r requirements.txt`
 
-- create a file named api, fill it with your gemini api key
+- create a file named api, fill it with your gemini api key (get it from https://aistudio.google.com/apikey)
 
 - populate data directory with your pdfs then run `python populate_database.py`
 
