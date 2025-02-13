@@ -1,8 +1,10 @@
-pip install -r requirements.txt
+## Simple RAG using gemini api
 
-create a file named api, fill it with your gemini api key
+- pip install -r requirements.txt
 
-populate data directory with your pdfs then run populate_database.py
+- create a file named api, fill it with your gemini api key
 
-lastly `streamlit run app.py`
+- populate data directory with your pdfs then run populate_database.py
+
+- lastly `streamlit run app.py`
 
