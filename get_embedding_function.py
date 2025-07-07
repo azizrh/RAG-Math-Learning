@@ -1,34 +1,20 @@
-from langchain_core.embeddings import Embeddings
-from google import genai
-
-class GeminiEmbeddings(Embeddings):
-    def __init__(self, api_key: str):
-        self.client = genai.Client(api_key=api_key)
-        
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Embed search documents."""
-        embeddings = []
-        
-        for text in texts:
-            result = self.client.models.embed_content(
-                model="text-embedding-004",
-                contents=text
-            )
-            # Extract the values from ContentEmbedding object
-            embedding_values = result.embeddings[0].values
-            embeddings.append(embedding_values)
-            
-        return embeddings
-    
-    def embed_query(self, text: str) -> list[float]:
-        """Embed query text."""
-        result = self.client.models.embed_content(
-            model="text-embedding-004",
-            contents=text
-        )
-        # Extract the values from ContentEmbedding object
-        return result.embeddings[0].values
+from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import OllamaEmbeddings
 
 def get_embedding_function():
-    api_key = open("api","r").read()  # Replace with your actual API key
-    return GeminiEmbeddings(api_key=api_key)
+    """
+    Get embedding function for local use.
+    
+    Options:
+    1. SentenceTransformerEmbeddings - Uses sentence-transformers library (recommended)
+    2. OllamaEmbeddings - Uses Ollama with an embedding model
+    """
+    
+    # Option 1: Using sentence-transformers (recommended for better performance)
+    # This model works well for general text and is relatively lightweight
+    return SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+    
+    # Option 2: Using Ollama with an embedding model (uncomment to use)
+    # Make sure you have pulled an embedding model in Ollama first:
+    # ollama pull nomic-embed-text
+    # return OllamaEmbeddings(model="nomic-embed-text")

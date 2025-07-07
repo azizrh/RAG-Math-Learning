@@ -1,7 +1,7 @@
 import argparse
 from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
-import google.generativeai as genai
+from langchain_community.llms.ollama import Ollama
 
 from get_embedding_function import get_embedding_function
 
@@ -36,17 +36,17 @@ def query_rag(query_text: str):
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
     prompt = prompt_template.format(context=context_text, question=query_text)
 
-    # Initialize Gemini
-    genai.configure(api_key=open("api","r").read())  # Replace with your actual API key
-    model = genai.GenerativeModel('gemini-pro')
+    # Initialize Ollama with Gemma model
+    # Make sure you have pulled the gemma model first: ollama pull gemma
+    model = Ollama(model="gemma:2b")  # or "gemma:7b" for better performance
     
-    # Generate response using Gemini
-    response = model.generate_content(prompt)
+    # Generate response using Gemma
+    response = model.invoke(prompt)
 
     sources = [doc.metadata.get("id", None) for doc, _score in results]
-    formatted_response = f"Response: {response.text}\nSources: {sources}"
+    formatted_response = f"Response: {response}\nSources: {sources}"
     print(formatted_response)
-    return response.text
+    return response
 
 if __name__ == "__main__":
     main()

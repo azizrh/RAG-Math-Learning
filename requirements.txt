@@ -3,7 +3,8 @@ langchain
 langchain-community
 chromadb
 pytest
-# google-generativeai
-google-genai
 numpy
 streamlit
+sentence-transformers
+# For local Ollama integration
+ollama
