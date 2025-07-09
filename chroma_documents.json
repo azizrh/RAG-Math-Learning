@@ -1,0 +1,222 @@
+[
+  {
+    "id": "data/Vesselfinder_API_Summary.pdf:0:0",
+    "content": "Hello Alvin, \nThank you for clarifying. \nIf you will be tracking a relatively fixed fleet of vessels, then the VesselsList method would be more \nappropriate to your needs. \nThe VesselsList method of our API allows you to fetch the AIS \ndataset (optionally Voyage and/or Master dataset at extra cost) for a predefined list of vessels (specified \nby IMO or MMSI number) at a regular interval.  \nEach API response returns the last updated datasets for all listed vessels in XML or JSON format.  \nThe service is provided on a subscription basis and the subscription fee depends on the number of \nvessels, the query interval (every 1 minute, 1 hour, etc.), and the included datasets (AIS, Voyage, \nMaster).  \nA subscription lasts 1-month, unless prepaid for a longer period, or otherwise specified. At the end of \nthe subscription period, access to the service is automatically revoked, unless you wish to continue using \nthe service. \nHere is an example of how the service works:  \n• you specify a fixed list of 20 vessels (by IMO or MMSI number) \n• you want access to the data every 1 hour  \n• when you run the query, the API will provide you the last updated position for all 20 vessels in \nXML/JSON format \nYou will be able to update your vessel list in two ways - manually using our ListManager interface or \nautomatically using the ListManager API method.  \nThe number of changes allowed in a calendar month is limited to the maximum number of vessels in \nyour fleet. \nFor example, if you have a fleet of 100 ships, you are allowed to change the whole fleet once every \nmonth, or make 100 individual changes/month. Each month, the allowed changes reset. \n \nHere is sample pricing for the AIS dataset fetched at different query intervals and for number of vessels \nQuery interval Number of vessels Cost per month \n1-hour 200 650€ \n2-hours 200 620€ \n4-hours 200 570€",
+    "metadata": {
+      "creationdate": "2025-01-31T16:46:35+07:00",
+      "total_pages": 2,
+      "id": "data/Vesselfinder_API_Summary.pdf:0:0",
+      "chunk_index": 0,
+      "source": "data/Vesselfinder_API_Summary.pdf",
+      "producer": "Microsoft® Word 2019",
+      "original_chunk_count": 1,
+      "page": 0,
+      "creator": "Microsoft® Word 2019",
+      "page_label": "1",
+      "moddate": "2025-01-31T16:46:35+07:00",
+      "chunk_method": "gemma_topic",
+      "author": "Alvin Raihan"
+    }
+  },
+  {
+    "id": "data/Vesselfinder_API_Summary.pdf:1:0",
+    "content": "6-hours 200 530€ \n12-hours 200 505€ \n24-hours 200 480€ \nQuery interval Number of vessels Cost per month \n1-hour 100 460€ \n2-hours 100 435€ \n4-hours 100 400€ \n6-hours 100 375€ \n12-hours 100 355€ \n24-hours 100 335€ \nBetter pricing can be offered if you subscribe (prepay) to the service for a longer period (3, 6 or 12 \nmonths).  \nNote that the query interval represents how often you can call the API service. The actual vessel \nposition update rate may vary due to various factors (e.g. region and AIS sources availability) and \ncannot be guaranteed.  \n \nif you can also show extra cost of the master data and other price \nThe cost to include each of the additional Master or Voyage datasets is 15% on top of the price. This \nmeans if you wish to include both datasets, you would need to pay 30% more.  \n \nYou mentioned that list of vessels API specified by IMO or MMSI, if I only have name of the vessels and \nport destination is it possible to query using your API, how it works? \nOur API allows querying only using IMO/MMSI numbers. Querying via name is not available with any of \nour API methods.  \nYou can search by name on our website and this way you can obtain the MMSI/IMO numbers of vessels. \nHowever, this process is manual and can take some time.",
+    "metadata": {
+      "id": "data/Vesselfinder_API_Summary.pdf:1:0",
+      "author": "Alvin Raihan",
+      "source": "data/Vesselfinder_API_Summary.pdf",
+      "creationdate": "2025-01-31T16:46:35+07:00",
+      "page_label": "2",
+      "page": 1,
+      "creator": "Microsoft® Word 2019",
+      "moddate": "2025-01-31T16:46:35+07:00",
+      "producer": "Microsoft® Word 2019",
+      "chunk_index": 0,
+      "original_chunk_count": 1,
+      "total_pages": 2,
+      "chunk_method": "gemma_topic"
+    }
+  },
+  {
+    "id": "data/real-state-contract-1.pdf:0:0",
+    "content": "REAL ESTATE PURCHASE AGREEMENT \n This Agreement  is made and entered into on this 25th day of February, 2025, by and \n between: \n Seller:  John A. Thompson, residing at 1456 Maple Avenue,  Los Angeles, CA 90017. \n Buyer:  Emily R. Carter, residing at 3025 Oakwood Drive,  San Diego, CA 92103. \n 1.  PROPERTY DESCRIPTION \n The Seller agrees to sell and the Buyer agrees to purchase the property located at: \n Property Address:  789 Sunset Boulevard, Los Angeles,  CA 90028 \n Legal Description:  Lot 12, Block B, Sunset Heights  Subdivision, as recorded in \n the Los Angeles County records. \n 2.  PURCHASE PRICE & PAYMENT TERMS \n Total Purchase Price:  $750,000.00 (Seven Hundred Fifty  Thousand Dollars) \n Earnest Money Deposit:  $25,000.00 to be held in escrow  by ABC Title Company \n Financing Terms:  The balance of $725,000.00 shall  be financed by a mortgage \n loan secured by the property. \n 3.  CLOSING DATE & TRANSFER OF TITLE \n The closing shall take place on or before March 30, 2025, at ABC Title Company, \n located at 500 Main Street, Los Angeles, CA. The Seller agrees to transfer a \n marketable title to the Buyer by General Warranty Deed, free of any \n encumbrances except as stated in this Agreement. \n 4.  INSPECTIONS & CONTINGENCIES \n This Agreement is contingent upon the Buyer’s satisfaction with a home inspection \n to be completed within 15 days from the Effective Date. If the inspection reveals \n significant issues, the Buyer may request repairs or terminate the contract. \n 5.  POSSESSION \n The Buyer shall take possession of the property on the closing date unless \n otherwise agreed in writing. \n 6.  DEFAULT & REMEDIES \n If the Buyer defaults, the Seller may retain the earnest money as liquidated \n damages. If the Seller defaults, the Buyer shall be entitled to a refund of the \n earnest money and may pursue legal remedies. \n 7.  ADDITIONAL TERMS \n ○  The property is sold \"AS-IS,\" subject to inspection. \n ○  Any personal property remaining at the premises at the time of closing shall \n become the property of the Buyer.",
+    "metadata": {
+      "id": "data/real-state-contract-1.pdf:0:0",
+      "chunk_method": "gemma_topic",
+      "original_chunk_count": 1,
+      "total_pages": 2,
+      "moddate": "2025-02-25T13:41:55+00:00",
+      "creator": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "source": "data/real-state-contract-1.pdf",
+      "producer": "Skia/PDF m133",
+      "page_label": "1",
+      "creationdate": "2025-02-25T13:41:55+00:00",
+      "title": "Untitled document - Google Docs",
+      "page": 0,
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "data/real-state-contract-1.pdf:1:0",
+    "content": "○  Each party shall be responsible for their respective closing costs unless \n otherwise negotiated. \n 8.  GOVERNING LAW \n This Agreement shall be governed and interpreted under the laws of the State of \n California. \n IN WITNESS WHEREOF  , the parties have executed this  Agreement as of the date first \n written above. \n SELLER: \n John A. Thompson \n (Signature) ________________________ \n BUYER: \n Emily R. Carter \n (Signature) ________________________ \n WITNESS: \n ABC Title Company Representative \n (Signature) ________________________ \n ESCROW AGENT: \n ABC Title Company \n (Signature) ________________________",
+    "metadata": {
+      "id": "data/real-state-contract-1.pdf:1:0",
+      "creator": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "chunk_method": "gemma_topic",
+      "producer": "Skia/PDF m133",
+      "source": "data/real-state-contract-1.pdf",
+      "creationdate": "2025-02-25T13:41:55+00:00",
+      "chunk_index": 0,
+      "page": 1,
+      "total_pages": 2,
+      "title": "Untitled document - Google Docs",
+      "original_chunk_count": 1,
+      "moddate": "2025-02-25T13:41:55+00:00",
+      "page_label": "2"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:0:0",
+    "content": "Tax InvoiceEmail or talk to us about your AWS account or bill, visit console.aws.amazon.com/support\nMore information regarding your service charges is available by accessing your Billing Management Console\nSubmit feedback on your Invoice Experience here.\nAccount number:\n443507189426\nYour VAT Number (NPWP):\n085.316.922.5-027.000\nIssued To:\nPT. PRAXIS APTA PARAMA\nJalan Gunung Sahari Raya No 85\nRT. 010 RW. 007 Gunung Sahari Selatan\nJakarta Pusat, Daerah Khusus Ibukota Jakarta,\n10610, ID\nTax Invoice Summary\nTax Invoice Number: IINID25-1739\nTax Invoice Date: February 2, 2025\nTOTAL AMOUNT USD 573.61\nTOTAL TAX USD 56.85\nOriginal For Recipient\nThis Tax Invoice is for the billing period January 1 - January 31, 2025\nGreetings from Amazon Web Services, we’re writing to provide you with tax details for your use of AWS services. Additional\ninformation regarding your bill, service charge details, and your account history is available on your Billing Management\nConsole. These charges have been applied to Invoice #2029521269.\nTax Invoice Summary\nAWS Service Charges USD 573.61\nCharges (excl. VAT) USD 516.76\nCredits/Discount USD 0.00\nNet Charges (After Credits/Discount, excl. VAT) USD 516.76\nTotal VAT Amount at 11% USD 56.85\nAmazon Web Services, Inc.,\n410 Terry Avenue North\nSeattle, WA 98109 United States\nIndonesia VAT number (NPWP) of the VAT collector: 001.712.275.5-053.000\n1 / 4",
+    "metadata": {
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "creator": "Apache FOP Version 2.1",
+      "id": "data/TaxInvoice_IINID25_1739.pdf:0:0",
+      "total_pages": 4,
+      "page": 0,
+      "page_label": "1",
+      "chunk_index": 0,
+      "original_chunk_count": 1,
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "chunk_method": "gemma_topic",
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:1:0",
+    "content": "Detailed Usage for Account # 443507189426 USD 573.61\nAmazon Simple Storage Service USD 1.82\nCharges (excl. VAT) USD 1.64\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 1.64\nTotal VAT Amount at 11% USD 0.18\nAWS Lambda USD 0.00\nCharges (excl. VAT) USD 0.00\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.00\nTotal VAT Amount at 0% USD 0.00\nAWS Data Transfer USD 0.19\nCharges (excl. VAT) USD 0.17\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.17\nTotal VAT Amount at 11% USD 0.02\nElastic Load Balancing USD 104.12\nCharges (excl. VAT) USD 93.80\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 93.80\nTotal VAT Amount at 11% USD 10.32\nAmazon Relational Database Service USD 54.97\nCharges (excl. VAT) USD 49.52\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 49.52\nTotal VAT Amount at 11% USD 5.45\nAmazon Elastic Compute Cloud USD 336.50\nCharges (excl. VAT) USD 303.16\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 303.16\nAmazon Web Services, Inc.,\n410 Terry Avenue North\nSeattle, WA 98109 United States\nIndonesia VAT number (NPWP) of the VAT collector: 001.712.275.5-053.000\n2 / 4",
+    "metadata": {
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "chunk_index": 0,
+      "page": 1,
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "page_label": "2",
+      "id": "data/TaxInvoice_IINID25_1739.pdf:1:0",
+      "creator": "Apache FOP Version 2.1",
+      "total_pages": 4,
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "original_chunk_count": 1,
+      "chunk_method": "gemma_topic"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:2:0",
+    "content": "Total VAT Amount at 11% USD 33.34\nAmazon EC2 Container Registry (ECR) USD 0.57\nCharges (excl. VAT) USD 0.51\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.51\nTotal VAT Amount at 11% USD 0.06\nAmazon DynamoDB USD 0.00\nCharges (excl. VAT) USD 0.00\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.00\nTotal VAT Amount at 0% USD 0.00\nAWS Glue USD 0.00\nCharges (excl. VAT) USD 0.00\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.00\nTotal VAT Amount at 0% USD 0.00\nAmazon Route 53 USD 1.12\nCharges (excl. VAT) USD 1.01\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 1.01\nTotal VAT Amount at 11% USD 0.11\nAmazon Redshift USD 0.01\nCharges (excl. VAT) USD 0.01\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.01\nTotal VAT Amount at 11% USD 0.00\nAmazonCloudWatch USD 0.67\nCharges (excl. VAT) USD 0.60\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.60\nAmazon Web Services, Inc.,\n410 Terry Avenue North\nSeattle, WA 98109 United States\nIndonesia VAT number (NPWP) of the VAT collector: 001.712.275.5-053.000\n3 / 4",
+    "metadata": {
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "chunk_index": 0,
+      "id": "data/TaxInvoice_IINID25_1739.pdf:2:0",
+      "original_chunk_count": 1,
+      "page_label": "3",
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "chunk_method": "gemma_topic",
+      "page": 2,
+      "creator": "Apache FOP Version 2.1",
+      "total_pages": 4,
+      "creationdate": "2025-02-02T06:05:21+00:00"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:3:0",
+    "content": "Charges (excl. VAT) USD 4.99\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 4.99",
+    "metadata": {
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "chunk_method": "gemma_topic",
+      "page": 3,
+      "page_label": "4",
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "original_chunk_count": 5,
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "creator": "Apache FOP Version 2.1",
+      "total_pages": 4,
+      "id": "data/TaxInvoice_IINID25_1739.pdf:3:0",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:3:1",
+    "content": "Charges (excl. VAT) USD 0.00\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 0.00",
+    "metadata": {
+      "id": "data/TaxInvoice_IINID25_1739.pdf:3:1",
+      "total_pages": 4,
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "creator": "Apache FOP Version 2.1",
+      "chunk_index": 1,
+      "page": 3,
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "original_chunk_count": 5,
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "page_label": "4",
+      "chunk_method": "gemma_topic"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:3:2",
+    "content": "Charges (excl. VAT) USD 61.35\nCredits/Discount USD 0.00\nNet Charges (After Credits / Discount, excl. VAT) USD 61.35",
+    "metadata": {
+      "page": 3,
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "page_label": "4",
+      "chunk_index": 2,
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "chunk_method": "gemma_topic",
+      "id": "data/TaxInvoice_IINID25_1739.pdf:3:2",
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "original_chunk_count": 5,
+      "total_pages": 4,
+      "creator": "Apache FOP Version 2.1"
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:3:3",
+    "content": "Amazon Web Services, Inc.,\n410 Terry Avenue North\nSeattle, WA 98109 United States",
+    "metadata": {
+      "original_chunk_count": 5,
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "page_label": "4",
+      "page": 3,
+      "chunk_index": 3,
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "chunk_method": "gemma_topic",
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "creator": "Apache FOP Version 2.1",
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "id": "data/TaxInvoice_IINID25_1739.pdf:3:3",
+      "total_pages": 4
+    }
+  },
+  {
+    "id": "data/TaxInvoice_IINID25_1739.pdf:3:4",
+    "content": "Indonesia VAT number (NPWP) of the VAT collector: 001.712.275.5-053.000\n4 / 4",
+    "metadata": {
+      "id": "data/TaxInvoice_IINID25_1739.pdf:3:4",
+      "page_label": "4",
+      "source": "data/TaxInvoice_IINID25_1739.pdf",
+      "creationdate": "2025-02-02T06:05:21+00:00",
+      "page": 3,
+      "creator": "Apache FOP Version 2.1",
+      "chunk_index": 4,
+      "chunk_method": "gemma_topic",
+      "total_pages": 4,
+      "producer": "Apache FOP Version 2.1; modified using iText 2.1.7 by 1T3XT",
+      "moddate": "2025-02-02T06:05:21+00:00",
+      "original_chunk_count": 5
+    }
+  }
+]

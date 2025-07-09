@@ -3,4 +3,6 @@
 backup
 chroma
 api
+.env
 env/*
+data/*
